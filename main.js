@@ -11,10 +11,10 @@ for (let i = 0; i < botoes.length; i++) { //laço de repetição que passará po
     }
 }
 const contadores = document.querySelectorAll(".contador"); //contador
-const tempo1 = new Date("2024-12-13T00:00:00"); //estipula uma data para a contagem regressiva BOTAO1
-const tempo2 = new Date("2024-11-12T00:00:00"); //estipula uma data para a contagem regressiva BOTAO2
-const tempo3 = new Date("2024-10-11T00:00:00"); //estipula uma data para a contagem regressiva BOTAO3
-const tempo4 = new Date("2024-04-24T00:00:00"); //estipula uma data para a contagem regressiva BOTAO4
+const tempo1 = new Date("2025-03-28T00:00:00"); //estipula uma data para a contagem regressiva BOTAO1
+const tempo2 = new Date("2025-03-12T00:00:00"); //estipula uma data para a contagem regressiva BOTAO2
+const tempo3 = new Date("2025-03-22T00:00:00"); //estipula uma data para a contagem regressiva BOTAO3
+const tempo4 = new Date("2024-12-25T00:00:00"); //estipula uma data para a contagem regressiva BOTAO4
 const tempos = [tempo1, tempo2, tempo3, tempo4];
 
 contadores[0].textContent = calculaTempo(tempos[0]);
